@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AnyKeySceneChange : MonoBehaviour
+public class AnyKeySceneChange : FadeManager
 {
     public string nextScene;
     public bool canQuitOnEscape = true;
@@ -20,7 +20,17 @@ public class AnyKeySceneChange : MonoBehaviour
         }
         else if(Input.anyKey)
         {
-            SceneManager.LoadScene(this.nextScene);
+            this.FadeIn();
         }
+    }
+
+    override public void FadeInComplete()
+    {
+        SceneManager.LoadScene(this.nextScene);
+    }
+
+    override public void FadeOutComplete()
+    {
+        Debug.Log("overide is working");
     }
 }
