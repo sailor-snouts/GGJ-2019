@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DemoJosh.unity
     guid: feab8ac32c3c86f4b92c2243a5d77264
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/DemoRobert.unity
     guid: ace4059af9888c24a8f59a563ceb410e
   m_configObjects: {}
