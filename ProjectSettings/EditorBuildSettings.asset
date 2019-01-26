@@ -15,8 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: c1a4e02ba1be1f944b946682ec9d19ac
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/Scenes/Nightmare.unity
     guid: 95cdcac0f6f43644da69e50f910c7dce
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 348c9a9dab80379489f9611abc56cbf9
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 64376e2014736f448b0f88f8fd976a2d
