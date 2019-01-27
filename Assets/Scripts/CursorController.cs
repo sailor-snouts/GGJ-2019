@@ -5,7 +5,6 @@ using UnityEngine;
 public class CursorController : MonoBehaviour
 {
     float clampMax;
-    [SerializeField, Range(0.1f, 0.5f)]
     private float cursorSpeed = 0.1f;
     [SerializeField]
     GameObject bar;
@@ -18,6 +17,7 @@ public class CursorController : MonoBehaviour
     void Start()
     { 
         clampMax = (bar.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
+        cursorSpeed = Random.Range(0.1f, 0.45f);
         SetGreenZonePosition();
     }
 
