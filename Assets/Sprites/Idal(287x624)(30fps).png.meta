@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 5cd5b95eb69574c52a7020c6305d6091
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idal(287x624)(30fps)_0
+    21300002: Idal(287x624)(30fps)_1
+    21300004: Idal(287x624)(30fps)_2
+    21300006: Idal(287x624)(30fps)_3
+    21300008: Idal(287x624)(30fps)_4
+    21300010: Idal(287x624)(30fps)_5
+    21300012: Idal(287x624)(30fps)_6
+    21300014: Idal(287x624)(30fps)_7
+    21300016: Idal(287x624)(30fps)_8
+    21300018: Idal(287x624)(30fps)_9
+    21300020: Idal(287x624)(30fps)_10
+    21300022: Idal(287x624)(30fps)_11
+    21300024: Idal(287x624)(30fps)_12
+    21300026: Idal(287x624)(30fps)_13
+    21300028: Idal(287x624)(30fps)_14
+    21300030: Idal(287x624)(30fps)_15
+    21300032: Idal(287x624)(30fps)_16
+    21300034: Idal(287x624)(30fps)_17
+    21300036: Idal(287x624)(30fps)_18
+    21300038: Idal(287x624)(30fps)_19
+    21300040: Idal(287x624)(30fps)_20
+    21300042: Idal(287x624)(30fps)_21
+    21300044: Idal(287x624)(30fps)_22
+    21300046: Idal(287x624)(30fps)_23
+    21300048: Idal(287x624)(30fps)_24
+    21300050: Idal(287x624)(30fps)_25
+    21300052: Idal(287x624)(30fps)_26
+    21300054: Idal(287x624)(30fps)_27
+    21300056: Idal(287x624)(30fps)_28
+    21300058: Idal(287x624)(30fps)_29
+    21300060: Idal(287x624)(30fps)_30
+    21300062: Idal(287x624)(30fps)_31
+    21300064: Idal(287x624)(30fps)_32
+    21300066: Idal(287x624)(30fps)_33
+    21300068: Idal(287x624)(30fps)_34
+    21300070: Idal(287x624)(30fps)_35
+    21300072: Idal(287x624)(30fps)_36
+    21300074: Idal(287x624)(30fps)_37
+    21300076: Idal(287x624)(30fps)_38
+    21300078: Idal(287x624)(30fps)_39
+    21300080: Idal(287x624)(30fps)_40
+    21300082: Idal(287x624)(30fps)_41
+    21300084: Idal(287x624)(30fps)_42
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533670d47632c4f8ab16f7ce4d53ef7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cc21618d7f9437ca9ea1ae4194c3de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_2
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ecadae021c54c03b343dbf1c05c85b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fd250d0527d49f0a1eafc9d2762231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_4
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f18e5ef5b8445f09b582fbe2eb46ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_5
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd4411f3c62e4958b8b4224330045d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_6
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2f870b1500c4a6b9c9a61c09c3d26a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_7
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d22a1fae9545f1a41ea2128f98204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_8
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aaa3db722094b348a612df3a0ee2e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_9
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 2496
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f081fa9d4a84232870c22146df7d25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad161c32b4a84773a5512334134db8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9488771f7684c1bbf316bfaf0658e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_12
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aab0556319434919a2eb050bb85f04a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_13
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf7ff35cfe294195a6a318f336c615b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_14
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66f2097bcd8444bab10b1f32ea51808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_15
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a2569dd5254e239b7f2ab723d5288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_16
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d7d2456b7345d9b58beecec1e0b7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_17
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abafa33d452c4eeb8927fd2e2c2aedc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_18
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6824eff219c945c29fe862b1afa8954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_19
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 1872
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1230e11920e467bba07e8d70b6d489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660ee9b6c33ea4943a3a8a3cb0ad0a3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277a1b796bc5442189d7f6cc1926737c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_22
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ad94f1b0af64d7596aa1887d9fac8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_23
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11f34759e5024a04be481f1c48cbea6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_24
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97b8f16cbbb24ae1af8fc4535cdcca8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_25
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb148c5baf4ba44d793708177b070f0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_26
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88905d9068e374fb4af0f3e1473280da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_27
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef29ec1f0a694fa498afa2b5bda82bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_28
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ddc52de5e6d4409a781b63fa178681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_29
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 1248
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88cf492f008a438cb9af1118b21da82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48c781f133004c31927de58d686f27c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9f5718ce0d0432eb0735ba93e648b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_32
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 629
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f555e9358447342c6ae14df48fbe6308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_33
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece5d506e16a3432daf46305074a2cda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_34
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7f0b26778a9408ebee4b95f176bacf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_35
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b71a343e8204a9794c835c236569d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_36
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8191143aa9bb4ac7bc3543ee314e7e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_37
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a5936e7f1b4ed796b748f4547cb0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_38
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fabbe15c96654cf59a610e1b8fbe9b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_39
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 624
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a90edb216c10420cb3b49749a0cda3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ca4203d054e439f8cdae407f576f2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_41
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc4144a8cf1c4050aa1ce7d56698e97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idal(287x624)(30fps)_42
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 0
+        width: 287
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0e050249ba74a53b72bfb8c79d9632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 601e8014c0ffc42d0ad107d9fe35b13e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
