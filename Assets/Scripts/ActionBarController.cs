@@ -17,6 +17,7 @@ public class ActionBarController : MonoBehaviour
 
     void Start()
     { 
+        //This is built off the assumption that frame's position.x is at 0.
         clampMax = (frame.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
         cursorSpeed = Random.Range(0.1f, 0.45f);
         SetGreenZonePosition();
