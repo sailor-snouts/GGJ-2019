@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     void Interact()
     {
         Debug.DrawLine(this.transform.position, this.transform.position + (Vector3) this.interactDirection * this.interactionDistance, Color.red);
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButtonDown("Fire1") || Input.GetButtonDown("Fire2"))
         {
             RaycastHit2D[] hits = Physics2D.RaycastAll(this.transform.position, this.interactDirection, this.interactionDistance);
             foreach(RaycastHit2D hit in hits)

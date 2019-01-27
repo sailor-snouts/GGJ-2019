@@ -5,6 +5,8 @@ using UnityEngine;
 public class InteractableBase : MonoBehaviour
 {
     private RoomManager room;
+    private PlayerController player;
+    public GameObject actionBar;
 
     void Start()
     {
@@ -21,22 +23,25 @@ public class InteractableBase : MonoBehaviour
                 break;
             }
         }
-        // @TODO get the minigame?
+
+        this.player = FindObjectOfType<PlayerController>();
     }
 
     virtual public void Interact()
     {
-        this.gameWon();
-        // @TODO run the minigame passing this to it so the minigame can set it to success or not
+        this.player.LockMovement();
+        this.actionBar.SetActive(true);
+        ActionBarController actionBarController = this.actionBar.GetComponent<ActionBarController>();
+        actionBarController.interactable = this;
     }
 
     virtual public void gameFailed()
     {
-
     }
 
     virtual public void gameWon()
     {
         this.room.CompleteRoom();
+        this.actionBar.SetActive(false);
     }
 }

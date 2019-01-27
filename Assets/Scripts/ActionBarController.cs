@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class ActionBarController : MonoBehaviour
 {
-    float clampMax;
     private float cursorSpeed = 0.1f;
+    float minGreenPosition = -2.5f;
+    float maxGreenPosition = 2.5f;
+    float barWidth = 10.5f;
     [SerializeField]
     GameObject frame;
     [SerializeField]
@@ -14,13 +16,17 @@ public class ActionBarController : MonoBehaviour
     GameObject cursor;
     enum TravelDirections { Left, Right };
     TravelDirections direction = TravelDirections.Right;
+    public InteractableBase interactable;
 
-    void Start()
-    { 
-        //This is built off the assumption that frame's position.x is at 0.
-        clampMax = (frame.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
-        cursorSpeed = Random.Range(0.1f, 0.45f);
+    public void Reset()
+    {
+        cursorSpeed = Random.Range(0.2f, 0.5f);
         SetGreenZonePosition();
+    }
+
+    private void OnEnable()
+    {
+        Reset();
     }
 
     void Update()
@@ -32,13 +38,8 @@ public class ActionBarController : MonoBehaviour
 
     void SetGreenZonePosition()
     {
-        float greenZoneX = Random.Range(0, clampMax);
-        //Randomly make range negative
-        if (Random.Range(0, 100) <= 50)
-        {
-            greenZoneX = greenZoneX * -1f;
-        }
-        mask.transform.position = new Vector3(greenZoneX, mask.transform.position.y, mask.transform.position.z);
+        float greenZoneX = Random.Range(minGreenPosition, maxGreenPosition);
+        mask.transform.position = new Vector3(transform.position.x + greenZoneX, mask.transform.position.y, mask.transform.position.z);
     }
 
     void HandleTravelDirectionChange()
@@ -58,37 +59,31 @@ public class ActionBarController : MonoBehaviour
     {
         if (IsTravellingLeft())
         {
-            cursor.transform.position = TravelLeft();
+            cursor.transform.position -= new Vector3(cursorSpeed, 0, 0);
         }
         else
         {
-            cursor.transform.position = TravelRight();
+            cursor.transform.position += new Vector3(cursorSpeed, 0, 0);
         }
     }
 
     void Interact()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Fire2"))
         {
             Vector2 greenZonePosition = mask.GetComponent<Transform>().position;
             float greenZoneStart = greenZonePosition.x - mask.GetComponent<Transform>().localScale.x;
             float greenZoneEnd = greenZonePosition.x + mask.GetComponent<Transform>().localScale.x;
             if (cursor.transform.position.x >= greenZoneStart && cursor.transform.position.x <= greenZoneEnd)
             {
-                Debug.Log("YOU WIN");
                 StressMeterController.DecrementStressLevel();
+                interactable.gameWon();
+            }
+            else
+            {
+                Reset();
             }
         }
-    }
-
-    Vector2 TravelRight()
-    {
-        return new Vector2(Mathf.Clamp(cursor.transform.position.x + cursorSpeed, -clampMax, clampMax), cursor.transform.position.y);
-    }
-
-    Vector2 TravelLeft()
-    {
-        return new Vector2(Mathf.Clamp(cursor.transform.position.x - cursorSpeed, -clampMax, clampMax), cursor.transform.position.y);
     }
 
     bool IsTravellingRight()
@@ -103,11 +98,11 @@ public class ActionBarController : MonoBehaviour
 
     bool IsAtRightBoundary()
     {
-        return cursor.transform.position.x >= clampMax;
+        return cursor.transform.position.x >= this.transform.position.x + barWidth/2;
     }
 
     bool IsAtLeftBoundary()
     {
-        return cursor.transform.position.x <= -clampMax;
+        return cursor.transform.position.x <= this.transform.position.x - barWidth/2;
     }
 }

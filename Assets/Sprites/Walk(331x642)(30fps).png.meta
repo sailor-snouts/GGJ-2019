@@ -1,0 +1,1863 @@
+fileFormatVersion: 2
+guid: 6256b6aecaca64dbdbad782d66b8783a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Walk(331x642)(30fps)_0
+    21300002: Walk(331x642)(30fps)_1
+    21300004: Walk(331x642)(30fps)_2
+    21300006: Walk(331x642)(30fps)_3
+    21300008: Walk(331x642)(30fps)_4
+    21300010: Walk(331x642)(30fps)_5
+    21300012: Walk(331x642)(30fps)_6
+    21300014: Walk(331x642)(30fps)_7
+    21300016: Walk(331x642)(30fps)_8
+    21300018: Walk(331x642)(30fps)_9
+    21300020: Walk(331x642)(30fps)_10
+    21300022: Walk(331x642)(30fps)_11
+    21300024: Walk(331x642)(30fps)_12
+    21300026: Walk(331x642)(30fps)_13
+    21300028: Walk(331x642)(30fps)_14
+    21300030: Walk(331x642)(30fps)_15
+    21300032: Walk(331x642)(30fps)_16
+    21300034: Walk(331x642)(30fps)_17
+    21300036: Walk(331x642)(30fps)_18
+    21300038: Walk(331x642)(30fps)_19
+    21300040: Walk(331x642)(30fps)_20
+    21300042: Walk(331x642)(30fps)_21
+    21300044: Walk(331x642)(30fps)_22
+    21300046: Walk(331x642)(30fps)_23
+    21300048: Walk(331x642)(30fps)_24
+    21300050: Walk(331x642)(30fps)_25
+    21300052: Walk(331x642)(30fps)_26
+    21300054: Walk(331x642)(30fps)_27
+    21300056: Walk(331x642)(30fps)_28
+    21300058: Walk(331x642)(30fps)_29
+    21300060: Walk(331x642)(30fps)_30
+    21300062: Walk(331x642)(30fps)_31
+    21300064: Walk(331x642)(30fps)_32
+    21300066: Walk(331x642)(30fps)_33
+    21300068: Walk(331x642)(30fps)_34
+    21300070: Walk(331x642)(30fps)_35
+    21300072: Walk(331x642)(30fps)_36
+    21300074: Walk(331x642)(30fps)_37
+    21300076: Walk(331x642)(30fps)_38
+    21300078: Walk(331x642)(30fps)_39
+    21300080: Walk(331x642)(30fps)_40
+    21300082: Walk(331x642)(30fps)_41
+    21300084: Walk(331x642)(30fps)_42
+    21300086: Walk(331x642)(30fps)_43
+    21300088: Walk(331x642)(30fps)_44
+    21300090: Walk(331x642)(30fps)_45
+    21300092: Walk(331x642)(30fps)_46
+    21300094: Walk(331x642)(30fps)_47
+    21300096: Walk(331x642)(30fps)_48
+    21300098: Walk(331x642)(30fps)_49
+    21300100: Walk(331x642)(30fps)_50
+    21300102: Walk(331x642)(30fps)_51
+    21300104: Walk(331x642)(30fps)_52
+    21300106: Walk(331x642)(30fps)_53
+    21300108: Walk(331x642)(30fps)_54
+    21300110: Walk(331x642)(30fps)_55
+    21300112: Walk(331x642)(30fps)_56
+    21300114: Walk(331x642)(30fps)_57
+    21300116: Walk(331x642)(30fps)_58
+    21300118: Walk(331x642)(30fps)_59
+    21300120: Walk(331x642)(30fps)_60
+    21300122: Walk(331x642)(30fps)_61
+    21300124: Walk(331x642)(30fps)_62
+    21300126: Walk(331x642)(30fps)_63
+    21300128: Walk(331x642)(30fps)_64
+    21300130: Walk(331x642)(30fps)_65
+    21300132: Walk(331x642)(30fps)_66
+    21300134: Walk(331x642)(30fps)_67
+    21300136: Walk(331x642)(30fps)_68
+    21300138: Walk(331x642)(30fps)_69
+    21300140: Walk(331x642)(30fps)_70
+    21300142: Walk(331x642)(30fps)_71
+    21300144: Walk(331x642)(30fps)_72
+    21300146: Walk(331x642)(30fps)_73
+    21300148: Walk(331x642)(30fps)_74
+    21300150: Walk(331x642)(30fps)_75
+    21300152: Walk(331x642)(30fps)_76
+    21300154: Walk(331x642)(30fps)_77
+    21300156: Walk(331x642)(30fps)_78
+    21300158: Walk(331x642)(30fps)_79
+    21300160: Walk(331x642)(30fps)_80
+    21300162: Walk(331x642)(30fps)_81
+    21300164: Walk(331x642)(30fps)_82
+    21300166: Walk(331x642)(30fps)_83
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437a603e77df74ee98dddda03cd57f3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ada8c2ebd60e46bd910283dce33491c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2aa0be823674f4e87b825ba504f0c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c0f851412ea42dcaee2ef616acbf92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_4
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba69aa9465013487097b138deb9e4462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_5
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9674eb02f24348ab92cd759141e2c2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_6
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df8d475d6f24404590695cd6f4044d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_7
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84646f4e04a3d4b5ea096cad04fbe961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_8
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a3ec6ceedf3443885437c8198dc0f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_9
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3528be319fc49c0866de1e6c31cc8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_10
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2173c85f9b93044698fda1f14eb2bb3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_11
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31849d67ae030444f9d98cb824a6191e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_12
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be7d7d28da5f4b69a2e2657874384bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_13
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17edd68b5aa404677ab83ed7524cb055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_14
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 3210
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59942960d3cfc44518741ee8cd82926f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdd0e9073f544f4aa375da9f82c3cb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d160ce1761646479570e0d38af7944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_17
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b3717260a764ff5a891bacd0545293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_18
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbd8f66683754c5299da2a5cec9ad0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_19
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7814029ccda64157ad94870f09619a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_20
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e335118a622314eae839e98558d4fa76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_21
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184ab6443ca2746cab2d8758f74e447e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_22
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5a21f93dd314eaf893158f8128118a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_23
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41514691774e8405a93226ac0aea8e1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_24
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2228c3f6715384aa8b0a13af58fd884d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_25
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f56e99c36a06453d875f04ce15a7a31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_26
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e883be564e044ddcb9ab487c936fdbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_27
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c7608a084f64ad09510bb680b99eed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_28
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08f7eb23fed54fac8f2e5b5f33e1978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_29
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 2568
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed6ee38b21704779a31613104c0f854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ae418c0746e4c3fa1319c523d039d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_31
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf6201fa206d494380598527f9278f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_32
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcfdfb9451844fd18e7c12e5667b97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_33
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee3bcb5e88b245ad8b8b713cfb6c403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_34
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de73f25a01954c9e9c99579b4f6f0d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_35
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1691e1e96baac4f7d91c0effdeceeffc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_36
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b34da2ffa914e63a520ed668d6ea4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_37
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5245f4d49e084d7cadf0ebd8893c4e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_38
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa60ba335a2140d1a3b7e0c5d589d63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_39
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ba6510afdc4f929351fe0fabb6b23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_40
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48824ccb753f74a6f9563911897409b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_41
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d695bbd077a448ea579fb6ff8ccfed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_42
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c0e611d2b104bbc85c9e79fec4b6be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_43
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d8755eb66f74fc18098077800aab17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_44
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 1926
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96d1ed1cde614de6b81742b632eff89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13879901492694aff94a29162dd6652b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_46
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab5479feeab74545b885ff4521449b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_47
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edf50b10a33949dd9f9c8aa2ca3b174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_48
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4919dc978324551a09898d291f8a22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_49
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c6abd364204d0e920dea47617b64f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_50
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea5c40cf9bdc4250afb84c7096b4362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_51
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33099b412892a499da2813f2191972b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_52
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a3d6bdcfd4d41199ebdd4d855aa6b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_53
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a84fa9f10563436a952e06e52077553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_54
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a7e3d049e94be9ad9807c5247b361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_55
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529990dccf52b4d3fa296160eb1f92c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_56
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387e2bbc1dab14d55a605e914f073a64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_57
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dba1f8ccb14424a8cedcc27e4acc44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_58
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d662d32d2b5e426b8bc69ec4df4536f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_59
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 1284
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa04085363046c8884d744d317a9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b068c6c108734f57ba5d010781b36eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_61
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d478919eab7984a088afa26aa5e2dd2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_62
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a811bd795cc4f438fcc11a1d8c0300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_63
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd2648d2e49942b7bb06b90735cf869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_64
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479ad5650834b4cb7b254fc355c24c64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_65
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963dc5e3228ff46df868ce0945a922ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_66
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a82ef25650c646cca61c55779e63931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_67
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8214f767cc59b4a07b1f524dcf2bc317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_68
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec387d067ed1645c2adca428aba15087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_69
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133d9864973324600aa864f98423ebcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_70
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c4596d4cce4d269927d7243e3f9d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_71
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020ff2586237f47c880048062ea10b9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_72
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa283af40f7f44ad9d41954c5a8be28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_73
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a56f3a5de724921ba1629c0ef8a730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_74
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 642
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3c352a81681442382d63f9e9c2786a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b785df0b16b074c97982b3e4ac6e39ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_76
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c81e6a7e42c6403b8d100ae3c7557ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_77
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ef087b45cd4ed5aaa774283e77e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_78
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c10352e373a4e77942f554d96a4ea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_79
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacd187eb4347471c9f18235464ea858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_80
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e671e349b6414b1ba9c2406ffb1eafd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_81
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b724ce7fa6f4793a2b49c6fb7b41cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_82
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2766b5a715e2a40b7af740e93021835c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk(331x642)(30fps)_83
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 0
+        width: 331
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835311076adbd4c0caa228e5e2a8d315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 194e4aeadb7fe4618bf72751d5a86473
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
