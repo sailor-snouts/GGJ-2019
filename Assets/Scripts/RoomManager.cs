@@ -14,11 +14,11 @@ public class RoomManager : FadeManager
     new private void Start()
     {
         base.Start();
-        this.player = FindObjectOfType<PlayerController>();
     }
 
     public void CompleteRoom()
     {
+        this.player = FindObjectOfType<PlayerController>();
         this.player.LockMovement();
         this.FadeIn();
     }
