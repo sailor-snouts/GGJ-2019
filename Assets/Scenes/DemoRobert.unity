@@ -576,6 +576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   incompleteOnly:
   - {fileID: 1549136046}
+  - {fileID: 177104544987285022}
   completeOnly:
   - {fileID: 1319015162}
 --- !u!1 &890726294
@@ -991,7 +992,7 @@ PrefabInstance:
     - target: {fileID: 4835850896466118961, guid: 03778c3cb7599b14883a5be673ad9dac,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1907346209, guid: 03778c3cb7599b14883a5be673ad9dac, type: 3}

@@ -10,10 +10,21 @@ public class PlayerController : MonoBehaviour
     private float velocity = 5;
     [SerializeField]
     private float interactionDistance = 1f;
+    private bool isMovementLocked = false;
     private Vector2 direction;
+    private Vector2 interactDirection;
     private SpriteRenderer sprite;
     private Rigidbody2D rb2d;
 
+    public void LockMovement()
+    {
+        this.isMovementLocked = true;
+    }
+
+    public void UnlockMovement()
+    {
+        this.isMovementLocked = false;
+    }
 
     void Start()
     {
@@ -21,13 +32,15 @@ public class PlayerController : MonoBehaviour
         this.rb2d = this.GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        this.rb2d.velocity = this.direction.normalized * this.velocity;
+        this.rb2d.velocity = this.isMovementLocked ? Vector2.zero : this.direction.normalized * this.velocity;
     }
 
     void Update()
     {
+        if (this.isMovementLocked) { return; }
+
         this.WalkInput();
         this.Interact();
     }
@@ -41,14 +54,19 @@ public class PlayerController : MonoBehaviour
         {
             this.sprite.flipX = this.direction.x < 0;
         }
+
+        if(this.direction.magnitude > 0)
+        {
+            this.interactDirection = this.direction;
+        }
     }
 
     void Interact()
     {
-        Debug.DrawLine(this.transform.position, this.transform.position + (Vector3) this.direction * this.interactionDistance, Color.red);
+        Debug.DrawLine(this.transform.position, this.transform.position + (Vector3) this.interactDirection * this.interactionDistance, Color.red);
         if(Input.GetButtonDown("Fire1"))
         {
-            RaycastHit2D[] hits = Physics2D.RaycastAll(this.transform.position, this.direction, this.interactionDistance);
+            RaycastHit2D[] hits = Physics2D.RaycastAll(this.transform.position, this.interactDirection, this.interactionDistance);
             foreach(RaycastHit2D hit in hits)
             {
                 if (hit.collider.gameObject == this.gameObject) continue;

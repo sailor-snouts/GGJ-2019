@@ -7,21 +7,9 @@ public class FadeManager : MonoBehaviour
 {
     private Animator animator;
 
-    private void Start()
+    protected void Start()
     {
         this.animator = this.GetComponent<Animator>();
-    }
-
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.I))
-        {
-            this.FadeIn();
-        }
-        else if (Input.GetKeyDown(KeyCode.O))
-        {
-            this.FadeOut();
-        }
     }
 
     public void FadeIn()
