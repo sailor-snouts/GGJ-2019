@@ -16,7 +16,7 @@ public class CursorController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { 
-        clampMax = bar.GetComponent<SpriteRenderer>().bounds.size.x/2f;
+        clampMax = (bar.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
     }
 
     // Update is called once per frame
@@ -25,47 +25,47 @@ public class CursorController : MonoBehaviour
         Vector2 currentPosition = transform.position;
         float travelAmount = currentPosition.x + cursorSpeed;
 
-        handleTravelDirectionChange(currentPosition);
+        HandleTravelDirectionChange(currentPosition);
 
-        if (isTravellingLeft()) {
-            this.transform.position = travelLeft(currentPosition);
+        if (IsTravellingLeft()) {
+            this.transform.position = TravelLeft(currentPosition);
         }
         else
         {
-            this.transform.position = travelRight(currentPosition);
+            this.transform.position = TravelRight(currentPosition);
         }
 
     }
 
-    void handleTravelDirectionChange(Vector2 currentPosition)
+    void HandleTravelDirectionChange(Vector2 currentPosition)
     {
-        if (isTravellingRight() && currentPosition.x >= clampMax)
+        if (IsTravellingRight() && currentPosition.x >= clampMax)
         {
             direction = TravelDirections.Left;
         }
 
-        if (isTravellingLeft() && currentPosition.x <= -clampMax)
+        if (IsTravellingLeft() && currentPosition.x <= -clampMax)
         {
             direction = TravelDirections.Right;
         }
     }
 
-    Vector2 travelRight(Vector2 currentPosition)
+    Vector2 TravelRight(Vector2 currentPosition)
     {
         return new Vector2(Mathf.Clamp(currentPosition.x + cursorSpeed, -clampMax, clampMax), currentPosition.y);
     }
 
-    Vector2 travelLeft(Vector2 currentPosition)
+    Vector2 TravelLeft(Vector2 currentPosition)
     {
         return new Vector2(Mathf.Clamp(currentPosition.x - cursorSpeed, -clampMax, clampMax), currentPosition.y);
     }
 
-    bool isTravellingRight()
+    bool IsTravellingRight()
     {
         return direction == TravelDirections.Right;
     }
 
-    bool isTravellingLeft()
+    bool IsTravellingLeft()
     {
         return direction == TravelDirections.Left;
     }
