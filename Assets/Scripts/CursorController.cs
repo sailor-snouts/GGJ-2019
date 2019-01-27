@@ -7,16 +7,16 @@ public class CursorController : MonoBehaviour
     float clampMax;
     private float cursorSpeed = 0.1f;
     [SerializeField]
-    GameObject bar;
+    GameObject frame;
     [SerializeField]
-    GameObject greenZone;
+    GameObject mask;
     enum TravelDirections { Left, Right };
     TravelDirections direction = TravelDirections.Right;
 
     // Start is called before the first frame update
     void Start()
     { 
-        clampMax = (bar.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
+        clampMax = (frame.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
         cursorSpeed = Random.Range(0.1f, 0.45f);
         SetGreenZonePosition();
     }
@@ -37,7 +37,7 @@ public class CursorController : MonoBehaviour
         {
             greenZoneX = greenZoneX * -1f;
         }
-        greenZone.transform.position = new Vector3(greenZoneX, greenZone.transform.position.y, greenZone.transform.position.z);
+        mask.transform.position = new Vector3(greenZoneX, mask.transform.position.y, mask.transform.position.z);
     }
 
     void HandleTravelDirectionChange()
@@ -69,9 +69,9 @@ public class CursorController : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Vector2 greenZonePosition = greenZone.GetComponent<Transform>().position;
-            float greenZoneStart = greenZonePosition.x - greenZone.GetComponent<Transform>().localScale.x;
-            float greenZoneEnd = greenZonePosition.x + greenZone.GetComponent<Transform>().localScale.x;
+            Vector2 greenZonePosition = mask.GetComponent<Transform>().position;
+            float greenZoneStart = greenZonePosition.x - mask.GetComponent<Transform>().localScale.x;
+            float greenZoneEnd = greenZonePosition.x + mask.GetComponent<Transform>().localScale.x;
             if (transform.position.x >= greenZoneStart && transform.position.x <= greenZoneEnd)
             {
                 Debug.Log("YOU WIN");
