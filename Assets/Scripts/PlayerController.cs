@@ -55,6 +55,9 @@ public class PlayerController : MonoBehaviour
 
                 switch(hit.collider.gameObject.tag)
                 {
+                    case "Interactable":
+                        hit.collider.GetComponent<InteractableBase>().Interact();
+                        break;
                     default:
                         Debug.Log("Playe is interacting with a " + hit.collider.gameObject.tag);
                         break;
