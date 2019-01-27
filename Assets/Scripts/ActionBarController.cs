@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorController : MonoBehaviour
+public class ActionBarController : MonoBehaviour
 {
     float clampMax;
     private float cursorSpeed = 0.1f;
@@ -10,10 +10,11 @@ public class CursorController : MonoBehaviour
     GameObject frame;
     [SerializeField]
     GameObject mask;
+    [SerializeField]
+    GameObject cursor;
     enum TravelDirections { Left, Right };
     TravelDirections direction = TravelDirections.Right;
 
-    // Start is called before the first frame update
     void Start()
     { 
         clampMax = (frame.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
@@ -21,7 +22,6 @@ public class CursorController : MonoBehaviour
         SetGreenZonePosition();
     }
 
-    // Update is called once per frame
     void Update()
     {
         HandleTravelDirectionChange();
@@ -57,11 +57,11 @@ public class CursorController : MonoBehaviour
     {
         if (IsTravellingLeft())
         {
-            this.transform.position = TravelLeft();
+            cursor.transform.position = TravelLeft();
         }
         else
         {
-            this.transform.position = TravelRight();
+            cursor.transform.position = TravelRight();
         }
     }
 
@@ -72,7 +72,7 @@ public class CursorController : MonoBehaviour
             Vector2 greenZonePosition = mask.GetComponent<Transform>().position;
             float greenZoneStart = greenZonePosition.x - mask.GetComponent<Transform>().localScale.x;
             float greenZoneEnd = greenZonePosition.x + mask.GetComponent<Transform>().localScale.x;
-            if (transform.position.x >= greenZoneStart && transform.position.x <= greenZoneEnd)
+            if (cursor.transform.position.x >= greenZoneStart && cursor.transform.position.x <= greenZoneEnd)
             {
                 Debug.Log("YOU WIN");
                 StressMeterController.DecrementStressLevel();
@@ -82,12 +82,12 @@ public class CursorController : MonoBehaviour
 
     Vector2 TravelRight()
     {
-        return new Vector2(Mathf.Clamp(transform.position.x + cursorSpeed, -clampMax, clampMax), transform.position.y);
+        return new Vector2(Mathf.Clamp(cursor.transform.position.x + cursorSpeed, -clampMax, clampMax), cursor.transform.position.y);
     }
 
     Vector2 TravelLeft()
     {
-        return new Vector2(Mathf.Clamp(transform.position.x - cursorSpeed, -clampMax, clampMax), transform.position.y);
+        return new Vector2(Mathf.Clamp(cursor.transform.position.x - cursorSpeed, -clampMax, clampMax), cursor.transform.position.y);
     }
 
     bool IsTravellingRight()
@@ -102,11 +102,11 @@ public class CursorController : MonoBehaviour
 
     bool IsAtRightBoundary()
     {
-        return transform.position.x >= clampMax;
+        return cursor.transform.position.x >= clampMax;
     }
 
     bool IsAtLeftBoundary()
     {
-        return transform.position.x <= -clampMax;
+        return cursor.transform.position.x <= -clampMax;
     }
 }
