@@ -32,6 +32,7 @@ public class CursorController : MonoBehaviour
     void SetGreenZonePosition()
     {
         float greenZoneX = Random.Range(0, clampMax);
+        //Randomly make range negative
         if (Random.Range(0, 100) <= 50)
         {
             greenZoneX = greenZoneX * -1f;
@@ -41,7 +42,6 @@ public class CursorController : MonoBehaviour
 
     void HandleTravelDirectionChange()
     {
-
         if (IsTravellingRight() && IsAtRightBoundary())
         {
             direction = TravelDirections.Left;
@@ -75,6 +75,7 @@ public class CursorController : MonoBehaviour
             if (transform.position.x >= greenZoneStart && transform.position.x <= greenZoneEnd)
             {
                 Debug.Log("YOU WIN");
+                StressMeterController.DecrementStressLevel();
             }
         }
     }
