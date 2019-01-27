@@ -14,11 +14,11 @@ public class CursorController : MonoBehaviour
     enum TravelDirections { Left, Right };
     TravelDirections direction = TravelDirections.Right;
 
-
     // Start is called before the first frame update
     void Start()
     { 
         clampMax = (bar.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
+        SetGreenZonePosition();
     }
 
     // Update is called once per frame
@@ -27,6 +27,16 @@ public class CursorController : MonoBehaviour
         HandleTravelDirectionChange();
         Travel();
         Interact();
+    }
+
+    void SetGreenZonePosition()
+    {
+        float greenZoneX = Random.Range(0, clampMax);
+        if (Random.Range(0, 100) <= 50)
+        {
+            greenZoneX = greenZoneX * -1f;
+        }
+        greenZone.transform.position = new Vector3(greenZoneX, greenZone.transform.position.y, greenZone.transform.position.z);
     }
 
     void HandleTravelDirectionChange()
