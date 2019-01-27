@@ -5,59 +5,88 @@ using UnityEngine;
 public class CursorController : MonoBehaviour
 {
     float clampMax;
-    [SerializeField, Range(0.1f, 0.5f)]
     private float cursorSpeed = 0.1f;
     [SerializeField]
     GameObject bar;
+    [SerializeField]
+    GameObject greenZone;
     enum TravelDirections { Left, Right };
     TravelDirections direction = TravelDirections.Right;
-
 
     // Start is called before the first frame update
     void Start()
     { 
         clampMax = (bar.GetComponent<SpriteRenderer>().bounds.size.x/2f) - 0.5f;
+        cursorSpeed = Random.Range(0.1f, 0.45f);
+        SetGreenZonePosition();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 currentPosition = transform.position;
-        float travelAmount = currentPosition.x + cursorSpeed;
-
-        HandleTravelDirectionChange(currentPosition);
-
-        if (IsTravellingLeft()) {
-            this.transform.position = TravelLeft(currentPosition);
-        }
-        else
-        {
-            this.transform.position = TravelRight(currentPosition);
-        }
-
+        HandleTravelDirectionChange();
+        Travel();
+        Interact();
     }
 
-    void HandleTravelDirectionChange(Vector2 currentPosition)
+    void SetGreenZonePosition()
     {
-        if (IsTravellingRight() && currentPosition.x >= clampMax)
+        float greenZoneX = Random.Range(0, clampMax);
+        if (Random.Range(0, 100) <= 50)
+        {
+            greenZoneX = greenZoneX * -1f;
+        }
+        greenZone.transform.position = new Vector3(greenZoneX, greenZone.transform.position.y, greenZone.transform.position.z);
+    }
+
+    void HandleTravelDirectionChange()
+    {
+
+        if (IsTravellingRight() && IsAtRightBoundary())
         {
             direction = TravelDirections.Left;
         }
 
-        if (IsTravellingLeft() && currentPosition.x <= -clampMax)
+        if (IsTravellingLeft() && IsAtLeftBoundary())
         {
             direction = TravelDirections.Right;
         }
     }
 
-    Vector2 TravelRight(Vector2 currentPosition)
+    void Travel()
     {
-        return new Vector2(Mathf.Clamp(currentPosition.x + cursorSpeed, -clampMax, clampMax), currentPosition.y);
+        if (IsTravellingLeft())
+        {
+            this.transform.position = TravelLeft();
+        }
+        else
+        {
+            this.transform.position = TravelRight();
+        }
     }
 
-    Vector2 TravelLeft(Vector2 currentPosition)
+    void Interact()
     {
-        return new Vector2(Mathf.Clamp(currentPosition.x - cursorSpeed, -clampMax, clampMax), currentPosition.y);
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Vector2 greenZonePosition = greenZone.GetComponent<Transform>().position;
+            float greenZoneStart = greenZonePosition.x - greenZone.GetComponent<Transform>().localScale.x;
+            float greenZoneEnd = greenZonePosition.x + greenZone.GetComponent<Transform>().localScale.x;
+            if (transform.position.x >= greenZoneStart && transform.position.x <= greenZoneEnd)
+            {
+                Debug.Log("YOU WIN");
+            }
+        }
+    }
+
+    Vector2 TravelRight()
+    {
+        return new Vector2(Mathf.Clamp(transform.position.x + cursorSpeed, -clampMax, clampMax), transform.position.y);
+    }
+
+    Vector2 TravelLeft()
+    {
+        return new Vector2(Mathf.Clamp(transform.position.x - cursorSpeed, -clampMax, clampMax), transform.position.y);
     }
 
     bool IsTravellingRight()
@@ -68,5 +97,15 @@ public class CursorController : MonoBehaviour
     bool IsTravellingLeft()
     {
         return direction == TravelDirections.Left;
+    }
+
+    bool IsAtRightBoundary()
+    {
+        return transform.position.x >= clampMax;
+    }
+
+    bool IsAtLeftBoundary()
+    {
+        return transform.position.x <= -clampMax;
     }
 }
