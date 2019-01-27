@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31ee4033e8a04c9394cd9c82334c22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorSpeed: 0.1
   bar: {fileID: 2667599345665324917}
+  greenZone: {fileID: 2667599345896553536}
 --- !u!1 &2667599345491617477
 GameObject:
   m_ObjectHideFlags: 0
